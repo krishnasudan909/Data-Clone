@@ -6,33 +6,33 @@ A Command Line Interface SQL Clone Using C++ <br/>
 >* Open the folder and Run main.cpp<br/>
 
 ## Supported SQL Commands <br/>
-*###### To create table: <br/>
+###### To create table: <br/>
           CREATE TABLE STUDENTS ( GRNO INT , NAME VARCHAR , PHONE INT , BRANCH VARCHAR ); <br/>
           
-*###### To insert data into table: <br/>
+###### To insert data into table: <br/>
           INSERT INTO STUDENTS VALUES ( 11910113 , Krishna , 6006277089 , IT ); <br/>
           
-*###### Error handling is also done: <br/>
+###### Error handling is also done: <br/>
           ****datatype error**** </br>
           INSERT INTO STUDENTS VALUES ( 11910354 , Swaminath , CS , 9865124786 ); </br>
           ****column error****<br/>
           INSERT INTO STUDENTS VALUES ( 11910354 , Swaminath , CS ); <br/>
 
-*###### To select the data from the table :<br/>
+###### To select the data from the table :<br/>
           SELECT * FROM STUDENTS;<br/>
           SELECT NAME , PHONE FROM STUDENTS;<br/>
           SELECT NAME FROM STUDENTS WHERE GRNO = 11910234;<br/>
           
- *###### To get description of table :<br/>
+ ###### To get description of table :<br/>
           DESCRIBE STUDENTS;<br/>
 
- *###### To update the data in table :<br/>
+ ###### To update the data in table :<br/>
           UPDATE STUDENTS SET NAME = KARTIK WHERE GRNO = 11910113;<br/>
 
- *###### To delete data from the table :<br/>
+ ###### To delete data from the table :<br/>
           DELETE FROM STUDENTS WHERE GRNO = 11910234;<br/>
           
- *###### To drop the table from schema :<br/>
+ ###### To drop the table from schema :<br/>
           DROP TABLE STUDENTS;<br/>
 
 ## Output Screenshot<br/>
